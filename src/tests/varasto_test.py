@@ -68,4 +68,4 @@ class TestVarasto(unittest.TestCase):
 
     def test_string_method(self):
         merkkijono = str(self.varasto)
-        self.assertEqual(merkkijono, "sao = 0, vielä tilaa 10")
+        self.assertEqual(merkkijono, "saldo = 0, vielä tilaa 10")
